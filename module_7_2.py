@@ -13,6 +13,17 @@ def custom_write(file_name, strings):
     return strings_positions
 
 
+info = [
+    'Text for tell.',
+    'Используйте кодировку utf-8.',
+    'Because there are 2 languages!',
+    'Спасибо!'
+    ]
+
+result = custom_write('test.txt', info)
+for elem in result.items():
+  print(elem)
+
 string_list_ = [
     'У лукоморья дуб зелёный;',
     'Златая цепь на дубе том:',
